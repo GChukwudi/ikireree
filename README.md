@@ -1,16 +1,48 @@
-# weather_app
+## Weather Forecast App 🌦️
 
-A new Flutter project.
+### Project Overview
+
+A Flutter-based mobile application that provides real-time weather information and 5-day forecasts using the OpenWeatherMap API. This app allows users to check current weather conditions and future forecasts for any city.
+
+### Features
+
+- 🌡️ Real-time weather information
+- 📅 5-day weather forecast
+- 🌍 City-based weather tracking
+- 🔄 Dynamic weather icon display
+- 📱 Responsive UI
+- 🔧 City selection settings
+
+### Technologies Used
+
+- Framework: Flutter
+- State Management: Provider
+- API: OpenWeatherMap
+- HTTP Requests: http package
+- Architecture: Clean Architecture
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the Repository
+```
+    https://github.com/GChukwudi/ikireree.git
+    cd weather_forecast_app
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install Dependencies
+```
+    flutter pub get
+```
+3. API Key Configuration
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Sign up at OpenWeatherMap
+- Get your API key
+    ```
+    Replace 'YOUR_API_KEY' with your actual API key
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Run the App
+
+```
+    flutter run
+```
