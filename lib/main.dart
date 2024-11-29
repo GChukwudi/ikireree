@@ -37,7 +37,7 @@ class Weather {
 
 // create a WeatherService class to fetch weather data
 class WeatherService {
-  final String apiKey = '7d83a6f1dfbf88feaa22ac24dd124785';
+  final String apiKey = 'YOUR_API_KEY';
   final String baseUrl = 'https://api.openweathermap.org/data/2.5';
 
   // create a method to fetch the current weather data
